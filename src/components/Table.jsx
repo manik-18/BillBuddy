@@ -144,7 +144,7 @@ const Table = () => {
                   (item) => `
                     <tr>
                       <td class="border px-4 py-2">${item.itemName}</td>
-                      <td class="border px-4 py-2">$${item.price.toFixed(
+                      <td class="border px-4 py-2">₹${item.price.toFixed(
                         2
                       )}</td>
                       <td class="border px-4 py-2">${item.users.join(", ")}</td>
@@ -156,7 +156,7 @@ const Table = () => {
             <tfoot>
               <tr>
                 <td colspan="2" class="border px-4 py-2"><strong>Overall Total:</strong></td>
-                <td class="border px-4 py-2">$${overallTotal.toFixed(2)}</td>
+                <td class="border px-4 py-2">₹${overallTotal.toFixed(2)}</td>
               </tr>
             </tfoot>
           </table>
@@ -179,7 +179,7 @@ const Table = () => {
                         (item) => `
                           <tr>
                             <td class="border px-4 py-2">${item.itemName}</td>
-                            <td class="border px-4 py-2">$${item.price.toFixed(
+                            <td class="border px-4 py-2">₹${item.price.toFixed(
                               2
                             )}</td>
                           </tr>
@@ -190,7 +190,7 @@ const Table = () => {
                   <tfoot>
                     <tr>
                       <td colspan="1" class="border px-4 py-2"><strong>Total:</strong></td>
-                      <td class="border px-4 py-2">$${total.toFixed(2)}</td>
+                      <td class="border px-4 py-2">₹${total.toFixed(2)}</td>
                     </tr>
                   </tfoot>
                 </table>
