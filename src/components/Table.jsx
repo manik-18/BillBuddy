@@ -43,7 +43,8 @@ const Table = () => {
       <div class="text-center pb-4">
         <img src=${Logo} alt="Logo" class="h-12 mx-auto bg-red-500 p-1 rounded-full">
         <h1 class="text-xl font-bold">BillBuddy</h1>
-      </div>`;
+      </div>
+      <a href="https://billbuddy.vercel.app">Website Link</a>`;
 
     const footer = `
       <div class="text-center pt-4">
